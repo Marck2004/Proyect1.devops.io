@@ -1,0 +1,60 @@
+@font-face {
+    font-family: space-mono;
+    src: url(Raleway,Space_Mono/Space_Mono/SpaceMono-Bold.ttf);
+}
+@font-face {
+    font-family: Inconsolata;
+    src: url(Inconsolata/Inconsolata-VariableFont_wdth\,wght.ttf);
+}
+*{
+    margin: 20px;
+}
+#topleft{
+    font-family: Inconsolata;
+    color: black;
+}
+#imagen{
+    width: 400px;
+    height: 400px;
+    margin-left: 100px;
+}
+
+.texto{
+    display: block;
+    float: left;
+    margin-top: 50px;
+}
+#letras{
+    display: block;
+    float: right;
+    margin-left: 75px;
+}
+
+#letras h3{
+    color: var(--gray-1, #333);
+    font-size: 50px;
+    font-family: Space-mono;
+    font-weight: 700px;
+    letter-spacing: -2.24px;
+}
+#letras p{
+    font-size: 20px;
+    color: var(--gray-2, #4f4f4f);
+    font-family: space-mono;
+    letter-spacing: -0.84px;
+}
+input[type="submit"]{
+    background-color: black;
+    color: white;
+    height: 75px;
+    width: 250px;
+    font-family: space-mono;
+}
+#creacion{
+    color: gray;
+    display: flexbox;
+    position: relative;
+    bottom: -550px;
+    left: -500px;
+    
+}
